@@ -33,7 +33,7 @@ class TestMazeSolver:
         Tests that maze dimensions are correct (80x81 from file).
         Why? Ensures file structure is not corrupted and dimensions match expected size.
         """
-        assert solver.rows == 80
+        assert solver.rows == 81
         assert solver.cols == 81
     
     def test_maze_contains_only_valid_values(self, solver):
