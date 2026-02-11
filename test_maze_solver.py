@@ -414,15 +414,15 @@ To run these tests:
    pip install pytest
 
 2. Run all tests:
-   pytest test_maze_solver.py -v
+   python3 -m pytest test_maze_solver.py -v
 
 3. Run specific test:
-   pytest test_maze_solver.py::TestMazeSolver::test_maze_loads_correctly -v
+   python3 -m pytest test_maze_solver.py::TestMazeSolver::test_maze_loads_correctly -v
 
 4. Run with coverage:
    pip install pytest-cov
-   pytest test_maze_solver.py --cov=maze_solver --cov-report=html
-
+   python3 -m pytest test_maze_solver.py --cov=maze_solver --cov-report=html
+   
 Expected output:
 test_maze_loads_correctly PASSED
 test_maze_dimensions PASSED
